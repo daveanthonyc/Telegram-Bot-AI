@@ -1,0 +1,22 @@
+{
+  "name": "apibot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hubspot/api-client": "^8.8.1",
+    "@hubspot/cli": "^4.1.7",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1",
+    "request": "^2.88.2",
+    "telegraf": "^4.12.2"
+  }
+}
